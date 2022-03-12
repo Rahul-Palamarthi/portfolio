@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Rahul</title>
+
+		<script src="https://kit.fontawesome.com/d28415ff34.js" crossorigin="anonymous"></script>
+
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.8.1/lottie.min.js"
+			integrity="sha512-V1YyTKZJrzJNhcKthpNAaohFXBnu5K9j7Qiz6gv1knFuf13TW/3vpgVVhJu9fvbdW8lb5J6czIhD4fWK2iHKXA=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		></script>
+
+		<link rel="stylesheet" href="./app/style.css" />
+
+		<script src="./app/script.js" defer></script>
+	</head>
+	<body>
+		<div class="loadingAnimation"></div>
+		<header id="header">
+			<div class="emptyNavClose"></div>
+			<span class="navBarToggle" aria-controls="primaryNavigation" aria-expanded="false">
+				<i class="fas fa-angle-double-left"></i>
+			</span>
+			<div class="headerContainer">
+				<!-------------------- Personal DP ------------------------->
+				<div class="logo">
+					<h2>Rahul</h2>
+				</div>
+				<!-------------------- Navigation Bar ---------------------->
+				<nav id="primaryNavigation" data-visible="false">
+					<ul>
+						<li class="active">
+							<a href="#header"><span>01</span>Home</a>
+						</li>
+						<li>
+							<a href="#projects"><span>02</span>Projects</a>
+						</li>
+						<li>
+							<a href="#"><span>03</span>Blog</a>
+						</li>
+						<li>
+							<a href="#footer"><span>04</span>Say_Hello</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<main>
+			<!---------------------- intro section ----------------------->
+			<section class="info">
+				<div id="img">
+					<img src="./images/rahul-portfolio img.png" alt="" />
+				</div>
+				<div class="content">
+					<h2>Hi, I'm <span>R</span>ahul.</h2>
+					<p>Frontend Webdeveloper</p>
+					<p>High level experience in Creating and Deploying Responsive websites using HTML, CSS, Java Script.</p>
+					<a href="#aboutMe">About me&emsp;<span>&lt; &sol;&gt;</span></a>
+					<div class="mediaLinks">
+						<ul>
+							<li>
+								<a href="https://github.com/Rahul-Palamarthi" target="_blank"><i class="fa fa-brands fa-github-square"></i></a>
+							</li>
+							<li>
+								<a href="https://www.linkedin.com/in/rahul-palamarthi-b3a689217/" target="_blank"><i class="fa fa-brands fa-linkedin"></i></a>
+							</li>
+							<li>
+								<a href="https://www.instagram.com/rahulpalamarthi/" target="_blank"><i class="fa fa-brands fa-instagram"></i></a>
+							</li>
+							<li>
+								<a href="#"><i class="fa fa-brands fa-twitter-square"></i></a>
+							</li>
+						</ul>
+					</div>
+					<div class="scrollContainer">
+						<span class="scrollDown">Scroll down </span>
+					</div>
+				</div>
+			</section>
+
+			<!------------------------- About Me ------------------------->
+			<section class="aboutMe" id="aboutMe">
+				<div class="aboutContainer">
+					<h2>About Me</h2>
+					<p>Hi, I am Rahul Palamarthi, a student at SVUCE, Tirupati. Currently I am sharpening my skills in Frontend Webdevelopment by creating responsive projects and also learning new techlonogies related to Webdevelopment.</p>
+					<p>
+						I also enjoy solving complex problems and turning them into simple and beautiful interface designs. I also love the logic and structure of coding and always strive to write elegant and efficient code, wheather it be HTML, CSS
+						or JS.
+					</p>
+				</div>
+			</section>
+
+			<!------------------------- Projects ------------------------->
+			<section class="projectSection" id="projects">
+				<div class="projectBody">
+					<h2>Projects</h2>
+					<div class="projectContainer">
+						<!----------------First Project ----------------->
+						<div class="project">
+							<div class="projectInfo">
+								<h3>Coffee Landing Page</h3>
+								<p>A Responsive landing page for coffee shop made with HTML, CSS and JS.</p>
+							</div>
+							<div class="projectImg">
+								<img src="./images/coffeeWebsiteImg.png" alt="coffee Image" />
+							</div>
+						</div>
+
+						<!--------------- Second Project ----------------->
+						<div class="project">
+							<h3></h3>
+							<p></p>
+						</div>
+
+						<!--------------- Third Project ----------------->
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<!------------------------ Start of Footer ---------------------->
+		<footer id="footer">
+			<div class="contactUs">
+				<div class="link">
+					<p>Say Hello with</p>
+					<button id="emailBtn">Gmail</button>
+				</div>
+				<!-- <div class="link">
+					<p>Say Hello with</p>
+					<button id="discordBtn">Discord</button>
+				</div> -->
+			</div>
+			<hr />
+			<div class="logoName">
+				<h2>Rahul</h2>
+			</div>
+			<div class="nMap">
+				<ul>
+					<li>
+						<a href="#">Home</a>
+					</li>
+					<li>
+						<a href="#">Projects</a>
+					</li>
+					<li>
+						<a href="#">Blog</a>
+					</li>
+					<li class="active">
+						<a href="#">Say_Hello</a>
+					</li>
+				</ul>
+			</div>
+		</footer>
+	</body>
+</html>
